@@ -51,6 +51,18 @@ h1:hover{
     transform: scale(0.75);
     transition: transform 0.3s ease;
 }
+.online_img{
+    margin: 30px;
+}
+.online_img a{
+    background-color: rgb(58, 71, 71);
+    color: white;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
 .footer{
     background-color: blueviolet;
     color:white;
