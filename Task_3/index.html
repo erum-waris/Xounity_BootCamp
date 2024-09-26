@@ -22,11 +22,14 @@ let customerAge = prompt("Enter your age:");
 
 // Convert the user's age input to a number
 
-// customerAge = Number(customerAge);
+ customerAge = Number(customerAge);
 
 // Check if the customer is 65 or older
-
-if (customerAge >= 65) {
+if( customerAge != Number){
+    alert("Invalid input. Please enter a number.");
+    return;
+ 
+} else if (customerAge >= 65) {
     // Display the discount message
     alert("Congrats! You will get 10% discount");
 
